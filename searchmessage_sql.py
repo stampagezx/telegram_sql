@@ -63,10 +63,7 @@ async def main():
         # f.close()
 
         # print(result.stringify())
-        i=0
         for index1 in result.messages:
-            i+=1
-            print(i, index1.message)
             val = (index1.id, keyword_search, index[0], index1.message, index1.date)
             cursor.execute(Q2, val)
             cursor.fetchone()
