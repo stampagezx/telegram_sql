@@ -1,0 +1,10 @@
+Library to import:
+    asyncio
+    TelegramClient, functions, types from telethon
+    mysql.connector
+    SearchRequest from telethon.tl.functions.messages
+    InputMessagesFilterEmpty from telethon.tl.types
+    ImportChatInviteRequest from telethon.tl.functions.messages
+    messages from pyexpat.errors
+    date from datetime
+Python version: 3.10.2
